@@ -1,0 +1,21 @@
+# VS Code の一時ファイル
+.vscode/settings.json
+.vscode/launch.json
+*.code-workspace
+
+# OS 生成ファイル
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# node / npm（依存関係が追加された場合）
+node_modules/
+npm-debug.log*
+
+# 一時ファイル・ログ
+*.log
+*.tmp
+*.bak
+
+# 生成レポート
+reports/vscode-copilot-update-*.md
